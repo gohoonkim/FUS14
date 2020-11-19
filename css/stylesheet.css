@@ -21,6 +21,11 @@
     margin: -1px;
 }
 
+.respons {
+    max-width: 100%;
+    height: auto;
+}
+
 ::-moz-selection {
     background: #233d84;
     color: #ffffff;
@@ -60,5 +65,97 @@ a img {
 /* 헤더 디자인 */
 
 .app-header {
-    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+
+/*  브랜드 로고 */
+
+.brand {
+    margin: 0;
+    padding: 2px;
+    line-height: 16px;
+}
+
+.brand a {
+    display: block;
+    padding: 30px;
+}
+
+
+/* 메인 메뉴 열기 버튼 */
+
+.is-open-menu {
+    background-color: #ffffff;
+    padding: 33px 28px;
+}
+
+.is-open-menu .ir {
+    display: inline-block;
+    width: 26px;
+    height: 22px;
+    background-image: url(./../images/navigation-button.gif);
+    background-repeat: none;
+}
+
+
+/* 내비게이션 */
+
+
+/* .nav.app-navigation.is-active {
+    padding 60px 0px 0px;
+} */
+
+.app-navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: fixed;
+    background-color: hsla(225, 57%, 10%, 0.9);
+    color: #FFFFFF;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    left: 0px;
+    align-content: flex-start;
+    padding: 10px;
+}
+
+.app-navigation li {
+    border-bottom: #233d84;
+}
+
+.app-navigation a {
+    display: block;
+    padding: 10px;
+    transition: all 0.4s ease;
+}
+
+.app-navigation a:hover,
+.app-navigation a:focus {
+    background: #2e437c;
+}
+
+.app-navigation ul {
+    background-color: #233d84;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.is-close-menu {
+    order: -1;
+    padding: 18px;
+}
+
+.is-open-menu {
+    color: fff;
+    size: 3em;
 }
