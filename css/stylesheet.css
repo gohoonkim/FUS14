@@ -112,6 +112,11 @@ a img {
     padding 60px 0px 0px;
 } */
 
+.app-navigation.is-active {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+
 .app-navigation {
     display: flex;
     flex-direction: row;
@@ -127,6 +132,8 @@ a img {
     left: 0px;
     align-content: flex-start;
     padding: 10px;
+    transition: all 400ms cubic-bezier(0.66, -0.01, 0.3, 0.99);
+    transform: translateX(105vw);
 }
 
 .app-navigation li {
