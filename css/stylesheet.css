@@ -14,7 +14,8 @@
 .a11y-hidden {
     overflow: hidden;
     position: absolute !important;
-    clip-path: polygon(0 0, 0 0, 0 0, 0 0) top: -9999em;
+    clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+    top: -9999em;
     clip: rect(0, 0, 0, 0);
     width: 1px;
     height: 1px;
@@ -104,7 +105,7 @@ a img {
     width: 26px;
     height: 22px;
     background-image: url(./../images/navigation-button.gif);
-    background-repeat: none;
+    background-repeat: no-repeat;
 }
 
 
@@ -167,7 +168,7 @@ padding 60px 0px 0px;
 }
 
 .is-open-menu {
-    color: fff;
+    color: #fff;
     size: 3em;
 }
 
@@ -237,9 +238,9 @@ padding 60px 0px 0px;
 
 /*음료 상세 정보 */
 
-.ediya-menu__item__detail {
+.ediya-menu__item--detail {
     background-color: rgba(204, 204, 204, 0.5);
-    border: 1px solid 202023;
+    border: 1px solid #202023;
     position: absolute;
     top: 0;
     left: 0;
@@ -258,7 +259,7 @@ padding 60px 0px 0px;
 
 .ediya-menu__item--name span[lang="en"] {
     display: block;
-    color: 999;
+    color: #999;
     font-size: 1.4rem;
     border-bottom: 2px solid #202023;
     padding-bottom: 10px;
@@ -270,7 +271,7 @@ padding 60px 0px 0px;
     column-rule: 1px solid #000;
     /*칼럼 영역 가운데 선을 그은 것*/
     background-color: #eee;
-    bottom: 20px 20px 20px;
+    padding: 20px 20px 10px;
     position: absolute;
     left: 0;
     right: 0;
