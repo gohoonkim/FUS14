@@ -189,7 +189,7 @@ padding 60px 0px 0px;
 
 .ediya-menu__item {
     width: 100%;
-    background-color: #f5f5f5;
+    /* background-color: #f5f5f5; */
 }
 
 .ediya-menu__item:nth-child(n+2) {
@@ -198,7 +198,7 @@ padding 60px 0px 0px;
 
 .ediya-menu a[role="button"] {
     /* border: blue solid 1px; */
-    background-color: pink;
+    background-color: #f5f5f5;
     display: block;
     text-align: center;
     padding-bottom: 40px;
