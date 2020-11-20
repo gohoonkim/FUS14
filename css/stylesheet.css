@@ -109,7 +109,7 @@ a img {
 
 
 /* .nav.app-navigation.is-active {
-    padding 60px 0px 0px;
+padding 60px 0px 0px;
 } */
 
 .app-navigation.is-active {
@@ -165,4 +165,28 @@ a img {
 .is-open-menu {
     color: fff;
     size: 3em;
+}
+
+
+/* 메인 콘텐츠_미디어커리를 이용한 기술_반응형 핵심 */
+
+.app-main {
+    background-color: yellow;
+}
+
+.ediya-menu figure {
+    width: 200px;
+    background-color: lime;
+}
+
+.ediya-menu img {
+    border: 1px solid red;
+    max-width: 100%;
+    height: auto;
+}
+
+@media all and (min-width: 768px) {
+    .app-main {
+        background-color: pink;
+    }
 }
